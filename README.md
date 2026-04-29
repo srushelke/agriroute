@@ -3,7 +3,7 @@
  This is an early-stage prototype. Features and endpoints are under active development.
  
 
-#Features:
+# Features:
 Farm Management: Register and manage farm profiles and their produce
 Shipment Tracking: Create and monitor agricultural shipments end-to-end
 Route Optimization: Plan and retrieve optimal delivery routes
@@ -11,7 +11,7 @@ Disruption Handling: Log and respond to supply chain disruptions (weather, delay
 CORS-enabled: Ready for frontend integration (React / Next.js)
 
 
-#Tech Stack:
+# Tech Stack:
  Layer        Technology                  
  Framework    [FastAPI](https://fastapi.tiangolo.com/) 
  Language     Python 3.x                  
@@ -19,7 +19,7 @@ CORS-enabled: Ready for frontend integration (React / Next.js)
  Deployment   Heroku (Procfile included)  
 
 
-#Project Structure:
+# Project Structure:
 agriroute/
 ├── routers/
 │   ├── farms.py          # Farm registration & management
@@ -41,7 +41,7 @@ agriroute/
 - A running PostgreSQL instance
 
 
-#Installation:
+# Installation:
 1. Clone the repository
 git clone https://github.com/srushelke/agriroute.git
 cd agriroute
@@ -57,12 +57,12 @@ pip install -r requirements.txt
 cp .env.example .env
 
 
-#Running the Server:
+# Running the Server:
 The API will be available at `http://localhost:8000`.
 Interactive API docs (Swagger UI): `http://localhost:8000/docs`
 
 
-#API Endpoints:
+# API Endpoints:
  Method  Endpoint               Description                  
  GET       `/`                    Health check                 
  GET/POST  `/api/farms`         List / create farms          
@@ -73,7 +73,7 @@ Interactive API docs (Swagger UI): `http://localhost:8000/docs`
 > Full interactive documentation is auto-generated at `/docs` when the server is running.
 
 
- #Deployment:
+ # Deployment:
 This project includes a `Procfile` for Heroku deployment.
 
    Deploy to Heroku
@@ -89,7 +89,7 @@ Never commit your `.env` file. It is already listed in `.gitignore`.
 
 
 
- #Roadmap:
+ # Roadmap:
   Authentication & role-based access (farmer / distributor / admin)
   Real-time disruption notifications (WebSockets)
   Route optimization algorithm integration
@@ -97,8 +97,8 @@ Never commit your `.env` file. It is already listed in `.gitignore`.
   Unit & integration tests
   Docker support
 
-
- #Contributing:
+ 
+ # Contributing:
 
 Contributions are welcome! Please open an issue first to discuss what you'd like to change.
 
@@ -109,7 +109,7 @@ Contributions are welcome! Please open an issue first to discuss what you'd like
 5. Open a Pull Request
 
  
-#License:
+# License:
 This project is currently unlicensed. License details will be added in a future release.
 
 
